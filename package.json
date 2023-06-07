@@ -9,7 +9,7 @@
 	"dependencies": {
 		"express": "^4.14.0",
 		"helmet": "3.21.3",
-		"nocache": "^4.0.0"
+		"nocache": "3.0.4"
 	},
 	"keywords": [
 		"node",
