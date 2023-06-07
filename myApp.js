@@ -3,7 +3,7 @@ const helmet = require('helmet');
 const app = express();
 const ninetyDaysInSeconds = 90 * 24 * 60 * 60;
 const noCache = require('nocache');
-const BCrypt = require('bcrypt');
+const bcrypt = require('bcrypt');
 
 app.use(helmet.hidePoweredBy()); 
 app.use(helmet.frameguard({action: 'DENY'}));
